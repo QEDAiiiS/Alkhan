@@ -47,7 +47,7 @@ import Massage from "./Pages/Dashboard/Massage";
 export const ThemeContext = createContext();
 
 import Setting from "./Pages/Profile/Setting";
-import Contactus from "./Pages/contact/contactus";
+import Contactus from "./Pages/contact/Contactus";
 
 import ChatPage from "./Pages/ChatPage/ChatPage";
 // import ChatApp from "./components/Chat/ChatApp";
