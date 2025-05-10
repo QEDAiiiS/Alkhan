@@ -4,10 +4,19 @@ import pic1 from "../../../../assets/imges/newww/pic1.jpeg";
 import hero from "../../../../assets/imges/hero.jpg";
 import "./Hero.css"
 function Slider() {
+
+
+
+
+
   return (
     <>
-      <section className="flex justify-between w-[90%] mx-auto">
-        <div className=" animate-slide-up flex justify-between py-7 mx-auto">
+      <section className="flex justify-between w-[100%] mx-auto">
+
+
+
+
+        <div className=" animate-slide-up flex justify-between py-7 mx-auto ">
           <div
             className=" flex flex-col ml-[70px] justify-between xl:w-[650px] "
           >
@@ -22,19 +31,33 @@ function Slider() {
             </div> */}
           </div>
         </div>
-        <div className="flex w-[90%] ">
+
+
+
+        <div className="flex justify-end ">
+
+
           <img
             src={pic1}
-            className="animate-slide-up border-[#344646] border-[6px] p-5 xl:h-[690px] xl:w-[380px] rounded-[200px] relative xl:top-5 xl:left-48"
+            className="animate-slide-up border-[#344646] border-[6px] p-5 xl:h-[660px] xl:w-[380px] rounded-[200px] relative xl:top-5 xl:left-48"
             alt="nnn"
           />
           {/* <div className=" border-separate p-5"></div> */}
+
+
           <img
             src={hero}
-            className="xl:h-[650px] xl:w-[350px] rounded-b-[200px]"
+            className=" pe-7 xl:h-[650px] xl:w-[350px] rounded-b-[200px]"
             alt="nnn"
           />
+
+
         </div>
+
+
+
+
+
       </section>
     </>
   );
